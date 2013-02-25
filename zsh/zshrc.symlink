@@ -2,7 +2,7 @@
 export ZSH=$HOME/.dotfiles
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
+export PROJECTS=~/src
 
 # all of our zsh files
 typeset -U config_files
@@ -38,3 +38,22 @@ do
 done
 
 unset config_files
+
+# Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+export EDITOR="vim"
+bindkey -v
+
+# vi style incremental search
+bindkey '^R' history-incremental-search-backward
+bindkey '^S' history-incremental-search-forward
+bindkey '^P' history-search-backward
+bindkey '^N' history-search-forward
+
+source ~/.powerline
+
+source /opt/boxen/env.sh
+
+setopt auto_cd
+cdpath=($HOME/src)
