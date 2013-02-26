@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Remove deleted files from git stage
+
+git ls-files --deleted -z | xargs -0 git rm

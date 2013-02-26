@@ -1,9 +1,5 @@
 alias reload!='. ~/.zshrc'
 
-alias git-undo='git add . && git reset --soft HEAD^'
-alias git-amend='git commit --amend -C HEAD'
-alias grma='git ls-files --deleted -z | xargs -0 git rm'
-
 alias b=bundle
 alias bi='b install --path vendor/bundle'
 alias bil='bi --local'
