@@ -1,5 +1,5 @@
 function powerline_precmd() {
-  export PS1="$(~/powerline-bash.py $? --shell zsh)"
+  export PS1="$(powerline $? --shell zsh)"
 }
 
 function install_powerline_precmd() {
