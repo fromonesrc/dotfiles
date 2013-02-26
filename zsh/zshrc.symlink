@@ -51,8 +51,6 @@ bindkey '^S' history-incremental-search-forward
 bindkey '^P' history-search-backward
 bindkey '^N' history-search-forward
 
-source ~/.powerline
-
 source /opt/boxen/env.sh
 
 setopt auto_cd
