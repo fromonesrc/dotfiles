@@ -53,5 +53,7 @@ bindkey '^N' history-search-forward
 
 source /opt/boxen/env.sh
 
+source ~/.localrc
+
 setopt auto_cd
 cdpath=($HOME/src)
