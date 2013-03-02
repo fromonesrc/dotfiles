@@ -5,3 +5,4 @@
 *.rbc
 .localrc
 vendor/bundle/
+doc/tags
