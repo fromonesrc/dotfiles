@@ -1,0 +1,51 @@
+[submodule "janus.symlink/csv.vim"]
+	path = janus.symlink/csv.vim
+	url = git://github.com/vim-scripts/csv.vim.git
+[submodule "janus.symlink/ZoomWin.git"]
+	path = janus.symlink/ZoomWin.git
+	url = git://github.com/vim-scripts/ZoomWin.git
+[submodule "janus.symlink/chef.vim"]
+	path = janus.symlink/chef.vim
+	url = git://github.com/vim-scripts/chef.vim.git
+[submodule "janus.symlink/commentary.vim"]
+	path = janus.symlink/commentary.vim
+	url = git://github.com/vim-scripts/commentary.vim.git
+[submodule "janus.symlink/nginx.vim"]
+	path = janus.symlink/nginx.vim
+	url = git://github.com/vim-scripts/nginx.vim.git
+[submodule "janus.symlink/rails.vim"]
+	path = janus.symlink/rails.vim
+	url = git://github.com/vim-scripts/rails.vim.git
+[submodule "janus.symlink/zencoding.vim"]
+	path = janus.symlink/zencoding.vim
+	url = git://github.com/vim-scripts/ZenCoding.vim.git
+[submodule "janus.symlink/turbux.vim"]
+	path = janus.symlink/turbux.vim
+	url = git://github.com/vim-scripts/turbux.vim.git
+[submodule "janus.symlink/ruby.vim"]
+	path = janus.symlink/ruby.vim
+	url = git://github.com/vim-scripts/ruby.vim.git
+[submodule "janus.symlink/codeschool.vim"]
+	path = janus.symlink/codeschool.vim
+	url = git://github.com/fromonesrc/codeschool.vim.git
+[submodule "janus.symlink/vimux.vim"]
+	path = janus.symlink/vimux.vim
+	url = git://github.com/benmills/vimux.git
+[submodule "janus.symlink/vim-powerline"]
+	path = janus.symlink/vim-powerline
+	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "janus.symlink/vim-markdown"]
+	path = janus.symlink/vim-markdown
+	url = git://github.com/plasticboy/vim-markdown.git
+[submodule "janus.symlink/vim-javascript"]
+	path = janus.symlink/vim-javascript
+	url = git://github.com/pangloss/vim-javascript.git
+[submodule "janus.symlink/vim-haml"]
+	path = janus.symlink/vim-haml
+	url = git://github.com/tpope/vim-haml.git
+[submodule "janus.symlink/vim-coffee-script"]
+	path = janus.symlink/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "janus.symlink/vim-tomorrow-theme"]
+	path = janus.symlink/vim-tomorrow-theme
+	url = git://github.com/chriskempson/vim-tomorrow-theme.git
