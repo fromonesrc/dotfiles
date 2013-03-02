@@ -49,3 +49,6 @@
 [submodule "janus.symlink/vim-tomorrow-theme"]
 	path = janus.symlink/vim-tomorrow-theme
 	url = git://github.com/chriskempson/vim-tomorrow-theme.git
+[submodule "janus.symlink/ZoomWin"]
+	path = janus.symlink/ZoomWin
+	url = git://github.com/vim-scripts/ZoomWin.git
