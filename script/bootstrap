@@ -149,5 +149,23 @@ then
   rm ~/.janus/Command-T/ruby/command-t/.ruby-version
 fi
 
+info "installing fonts"
+if cp $DOTFILES_ROOT/fonts/Monaco-Powerline.otf ~/Library/Fonts/
+then
+  success "fonts installed"
+else
+  fail "error installing fonts"
+fi
+
+info "configure iterm"
+if /usr/libexec/PlistBuddy -c "Set :New\ Bookmarks:0:Normal\ Font 'MonacoForPowerline 16'" ~/Library/Preferences/com.googlecode.iterm2.plist
+then
+  success "iterm configured"
+else
+  fail "error configuring iterm"
+fi
+
+killall "iTerm" > /dev/null 2>&1
+
 echo ''
 echo '  All installed!'
