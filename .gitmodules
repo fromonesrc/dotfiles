@@ -4,9 +4,6 @@
 [submodule "janus.symlink/ZoomWin.git"]
 	path = janus.symlink/ZoomWin.git
 	url = git://github.com/vim-scripts/ZoomWin.git
-[submodule "janus.symlink/chef.vim"]
-	path = janus.symlink/chef.vim
-	url = git@github.com:fromonesrc/chef.vim.git
 [submodule "janus.symlink/commentary.vim"]
 	path = janus.symlink/commentary.vim
 	url = git://github.com/vim-scripts/commentary.vim.git
@@ -52,3 +49,6 @@
 [submodule "janus.symlink/ZoomWin"]
 	path = janus.symlink/ZoomWin
 	url = git://github.com/vim-scripts/ZoomWin.git
+[submodule "janus.symlink/chef.vim"]
+	path = janus.symlink/chef.vim
+	url = git@github.com:fromonesrc/chef.vim.git
