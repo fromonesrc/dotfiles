@@ -137,5 +137,14 @@ else
   fail "error installing submodules"
 fi
 
+info "building command-t"
+if cd ~/.janus/Command-T/ruby/command-t && rbenv local system && ruby extconf.rb && make
+then
+  success "command-t build"
+else
+  "building command-t failed"
+fi
+rm ~/.janus/Command-T/ruby/command-t/.ruby-version
+
 echo ''
 echo '  All installed!'

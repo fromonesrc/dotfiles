@@ -52,3 +52,6 @@
 [submodule "janus.symlink/chef.vim"]
 	path = janus.symlink/chef.vim
 	url = git@github.com:fromonesrc/chef.vim.git
+[submodule "janus.symlink/Command-T"]
+	path = janus.symlink/Command-T
+	url = git://github.com/wincent/Command-T.git
