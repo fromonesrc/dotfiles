@@ -160,12 +160,10 @@ fi
 info "configure iterm"
 if /usr/libexec/PlistBuddy -c "Set :New\ Bookmarks:0:Normal\ Font 'MonacoForPowerline 16'" ~/Library/Preferences/com.googlecode.iterm2.plist
 then
-  success "iterm configured"
+  success "iterm configured. restart iterm for all changes to take effect."
 else
   fail "error configuring iterm"
 fi
-
-killall "iTerm" > /dev/null 2>&1
 
 echo ''
 echo '  All installed!'
