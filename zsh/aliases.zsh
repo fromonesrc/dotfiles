@@ -9,7 +9,7 @@ alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
 
 alias ll='ls -Falt'
 
-alias boxen='boxen --no-issue'
+alias boxen='boxen --stealth'
 
 alias proc='sudo execsnoop -a'
 
