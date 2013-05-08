@@ -7,3 +7,17 @@
 vendor/bundle/
 doc/tags
 .vagrant*
+bin/heroku
+.bundle
+
+build/*
+*.pbxuser
+*.mode2v3
+*.mode1v3
+*.perspective
+*.perspectivev3
+*~.nib
+
+#ignore private workspace stuff added by Xcode4
+xcuserdata
+project.xcworkspace
