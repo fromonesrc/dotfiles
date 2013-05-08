@@ -14,3 +14,5 @@ alias boxen='boxen --no-issue'
 alias proc='sudo execsnoop -a'
 
 alias hosts='sudo vim /etc/hosts'
+
+alias instances='ec2-describe-instances'
