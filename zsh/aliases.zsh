@@ -16,3 +16,5 @@ alias ll="ls -Falt"
 alias v="vim"
 alias clone='git clone'
 alias rmdir='sudo rm -r'
+
+alias gnuke='git reset --hard && git clean -df'

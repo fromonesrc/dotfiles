@@ -9,6 +9,7 @@ doc/tags
 .vagrant*
 bin/heroku
 .bundle
+.kitchen
 
 build/*
 *.pbxuser
