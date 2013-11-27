@@ -1,4 +1,6 @@
-color Tomorrow-Night
+execute pathogen#infect()
+syntax on
+color codeschool
 
 set encoding=utf-8
 let g:Powerline_symbols = 'fancy'
