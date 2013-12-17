@@ -2,6 +2,9 @@ execute pathogen#infect()
 syntax on
 color codeschool
 
+let mapleader=","
+map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
+
 set encoding=utf-8
 let g:Powerline_symbols = 'fancy'
 set guioptions-=T " Removes top toolbar
