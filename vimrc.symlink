@@ -45,6 +45,11 @@ endif
 "Retab and format the file with spaces
 nnoremap <leader>T :set expandtab<cr>:retab!<cr>
 
+set smartindent
+set tabstop=4
+set shiftwidth=2
+set expandtab
+
 "Thorfile, Rakefile, Vagrantfile and Gemfile are Ruby
 au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru} set ft=ruby
 
