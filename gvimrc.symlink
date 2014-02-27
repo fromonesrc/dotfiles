@@ -7,5 +7,3 @@ autocmd User Rails let b:surround_{char2nr('-')} = "<% \r %>" " displays <% %> c
 
 set nocompatible
 set t_Co=256
-
-autocmd BufWritePre *.py :%s/\s\+$//e

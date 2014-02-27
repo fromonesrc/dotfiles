@@ -34,7 +34,6 @@ else
 endif
 
 "strip trailing whitespace
-autocmd BufWritePre *.* :%s/\s\+$//e
 
 "Remember last location in file
 if has("autocmd")
