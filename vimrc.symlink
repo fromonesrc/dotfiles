@@ -16,6 +16,8 @@ autocmd User Rails let b:surround_{char2nr('-')} = "<% \r %>" " displays <% %> c
 set nocompatible
 set t_Co=256
 
+set number
+
 " http://henrik.nyh.se/octopress/2012/07/tests-on-demand-using-vimux-and-turbux-with-spork-and-guard/
 let g:VimuxUseNearestPane = 1
 let g:turbux_command_rspec = 'rspec --drb'
