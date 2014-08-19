@@ -17,6 +17,7 @@ set nocompatible
 set t_Co=256
 
 set number
+set paste
 
 " http://henrik.nyh.se/octopress/2012/07/tests-on-demand-using-vimux-and-turbux-with-spork-and-guard/
 let g:VimuxUseNearestPane = 1
