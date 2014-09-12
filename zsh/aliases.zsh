@@ -23,3 +23,5 @@ alias vu="vagrant up"
 alias vp="vagrant provision"
 
 alias atom="/Applications/Atom.app/Contents/MacOS/Atom"
+
+alias berksup="berks && berks upload"
