@@ -25,3 +25,4 @@ alias vp="vagrant provision"
 alias atom="/Applications/Atom.app/Contents/MacOS/Atom"
 
 alias berksup="berks && berks upload"
+alias chefv="cat metadata.rb | grep version | cut -f2 -d \'"
