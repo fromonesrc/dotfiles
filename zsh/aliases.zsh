@@ -28,3 +28,4 @@ alias berksup="berks && berks upload"
 alias chefv="cat metadata.rb | grep version | cut -f2 -d \'"
 
 alias aws="nocorrect aws"
+alias b2d="boot2docker"
