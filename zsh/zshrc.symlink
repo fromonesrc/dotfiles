@@ -1,3 +1,5 @@
+plugins=(rails git ruby docker chef)
+
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
 
@@ -42,12 +44,6 @@ unset config_files
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-# EC2
-export JAVA_HOME="$(/usr/libexec/java_home)"
-export EC2_PRIVATE_KEY="$(/bin/ls "$HOME"/.ec2/pk.pem | /usr/bin/head -1)"
-export EC2_CERT="$(/bin/ls "$HOME"/.ec2/cert.pem | /usr/bin/head -1)"
-export EC2_HOME="/opt/boxen/homebrew/Library/LinkedKegs/ec2-api-tools/jars"
-
 export EDITOR="vim"
 bindkey -v
 
@@ -63,6 +59,3 @@ source ~/.localrc
 
 setopt auto_cd
 cdpath=($HOME/src)
-
-# added by travis gem
-[ -f $HOME/.travis/travis.sh ] && source $HOME/.travis/travis.sh
