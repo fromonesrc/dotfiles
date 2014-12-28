@@ -8,7 +8,6 @@ alias be="b exec"
 alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
 
 alias ll="ls -Falt"
-alias boxen="boxen --stealth"
 alias proc="sudo execsnoop -a"
 alias hosts="sudo vim /etc/hosts"
 alias instances="ec2-describe-instances"
@@ -29,3 +28,5 @@ alias chefv="cat metadata.rb | grep version | cut -f2 -d \'"
 
 alias aws="nocorrect aws"
 alias b2d="boot2docker"
+
+alias keff="knife environment from file"
