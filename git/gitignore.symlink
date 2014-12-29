@@ -1,24 +1,22 @@
-.DS_Store
-.svn
-*~
-*.swp
 *.rbc
-.localrc
-vendor/bundle/
-doc/tags
-.vagrant*
-bin/heroku
+*.swp
+*~
+.DS_Store
 .bundle
 .kitchen
+.localrc
+.svn
+.vagrant*
+bin/heroku
+doc/tags
+vendor/bundle/
 
-build/*
-*.pbxuser
-*.mode2v3
 *.mode1v3
+*.mode2v3
+*.pbxuser
 *.perspective
 *.perspectivev3
 *~.nib
-
-#ignore private workspace stuff added by Xcode4
-xcuserdata
+build/*
 project.xcworkspace
+xcuserdata

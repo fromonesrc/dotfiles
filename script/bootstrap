@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 #
 # bootstrap installs things.
 
@@ -6,14 +6,14 @@ DOTFILES_ROOT="`pwd`"
 
 set -e
 
-echo ''
+echo ""
 
 info () {
-  printf "  [ \033[00;34m..\033[0m ] $1"
+  printf "  [ \033[00;34m..\033[0m ] $1\n"
 }
 
 user () {
-  printf "\r  [ \033[0;33m?\033[0m ] $1 "
+  printf "\r  [ \033[0;33m?\033[0m ] $1\n"
 }
 
 success () {
@@ -22,7 +22,7 @@ success () {
 
 fail () {
   printf "\r\033[2K  [\033[0;31mFAIL\033[0m] $1\n"
-  echo ''
+  echo ""
   exit
 }
 
@@ -32,7 +32,7 @@ link_files () {
 }
 
 install_dotfiles () {
-  info 'installing dotfiles'
+  info "installing dotfiles"
 
   overwrite_all=false
   backup_all=false
@@ -123,7 +123,7 @@ fi
 info "building command-t"
 if [ -f ~/.janus/Command-T/ruby/command-t/extconf.rb ]
 then
-  if cd ~/.janus/Command-T/ruby/command-t && rbenv local system && ruby extconf.rb && make
+  if cd ~/.janus/Command-T/ruby/command-t && rbenv local system && ruby extconf.rb &> /dev/null && make &> /dev/null
   then
     success "command-t build"
   else
@@ -148,5 +148,5 @@ else
   fail "error configuring iterm"
 fi
 
-echo ''
-echo '  All installed!'
+echo ""
+echo "  All installed!"

@@ -1,32 +1,24 @@
-alias reload!=". ~/.zshrc"
-
-alias b=bundle
-alias bi="b install --path vendor/bundle"
-alias bil="bi --local"
-alias bu="b update"
-alias be="b exec"
-alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
-
-alias ll="ls -Falt"
-alias proc="sudo execsnoop -a"
 alias hosts="sudo vim /etc/hosts"
-alias instances="ec2-describe-instances"
-alias ll="ls -Falt"
-alias v="vim"
-alias clone="git clone"
+alias proc="sudo execsnoop -a"
+alias reload!=". ~/.zshrc"
 alias rmdir="sudo rm -r"
+alias v=vim
 
-alias gnuke="git reset --hard && git clean -df"
+# docker
+alias b2d=boot2docker
 
-alias vu="vagrant up"
-alias vp="vagrant provision"
+# bundler
+alias b=bundle
+alias be="bundle exec"
+alias bi="bundle install --path vendor/bundle"
+alias bil="bundle install --local"
+alias bu="bundle update"
 
-alias atom="/Applications/Atom.app/Contents/MacOS/Atom"
-
-alias berksup="berks && berks upload"
+# chef
 alias chefv="cat metadata.rb | grep version | cut -f2 -d \'"
-
-alias aws="nocorrect aws"
-alias b2d="boot2docker"
-
+alias berksup="berks && berks upload"
 alias keff="knife environment from file"
+
+# vagrant
+alias vp="vagrant provision"
+alias vu="vagrant up"
