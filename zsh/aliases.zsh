@@ -1,4 +1,5 @@
 alias hosts="sudo vim /etc/hosts"
+alias poopin="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 alias proc="sudo execsnoop -a"
 alias reload!=". ~/.zshrc"
 alias rmdir="sudo rm -r"
