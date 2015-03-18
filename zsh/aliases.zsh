@@ -23,3 +23,6 @@ alias keff="knife environment from file"
 # vagrant
 alias vp="vagrant provision"
 alias vu="vagrant up"
+
+# terraform
+alias tf="terraform"
