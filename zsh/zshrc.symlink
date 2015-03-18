@@ -58,3 +58,5 @@ bindkey '^N' history-search-forward
 
 setopt auto_cd
 cdpath=($HOME/src)
+
+export PROJECT_PATH=~/src
