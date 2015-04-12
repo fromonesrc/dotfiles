@@ -19,6 +19,7 @@ alias bu="bundle update"
 alias chefv="cat metadata.rb | grep version | cut -f2 -d \'"
 alias berksup="berks && berks upload"
 alias keff="knife environment from file"
+alias kbu="knife block use"
 
 # vagrant
 alias vp="vagrant provision"

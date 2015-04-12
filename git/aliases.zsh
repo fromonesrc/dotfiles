@@ -15,3 +15,4 @@ alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C
 alias gnuke="git reset --hard && git clean -df"
 alias gpom="git push origin master"
 alias gs="git status -sb"
+alias gbclean="git branch --merged | grep -v '\*' | xargs -n 1 git branch -d"
