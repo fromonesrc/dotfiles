@@ -20,6 +20,9 @@ alias chefv="cat metadata.rb | grep version | cut -f2 -d \'"
 alias berksup="berks && berks upload"
 alias keff="knife environment from file"
 alias kbu="knife block use"
+alias kcd="knife client delete -y"
+alias knd="knife node delete -y"
+alias fcr="foodcritic ."
 
 # vagrant
 alias vp="vagrant provision"

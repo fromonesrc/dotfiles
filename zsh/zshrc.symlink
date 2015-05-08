@@ -42,7 +42,7 @@ done
 
 unset config_files
 
-export PATH="~/.chefdk/gem/ruby/2.1.0/bin:/usr/local/heroku/bin:$PATH"
+export PATH="~/.chefdk/gem/ruby/2.1.0/bin:/usr/local/heroku/bin:/usr/local/go/bin:/Users/fromonesrc/src/gocode/bin:$PATH"
 
 #rbenv
 eval "$(rbenv init -)"
@@ -60,3 +60,4 @@ setopt auto_cd
 cdpath=($HOME/src)
 
 export PROJECT_PATH=~/src
+export GOPATH=/Users/fromonesrc/src/gocode
