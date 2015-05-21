@@ -4,6 +4,7 @@ alias proc="sudo execsnoop -a"
 alias reload!=". ~/.zshrc"
 alias rmdir="sudo rm -r"
 alias v=vim
+alias lessn="less -N"
 
 # docker
 alias b2d=boot2docker
