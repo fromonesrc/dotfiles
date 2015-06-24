@@ -20,3 +20,4 @@ vendor/bundle/
 build/*
 project.xcworkspace
 xcuserdata
+.overcommit.yml
