@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+HASH=`md5 $2 | awk '{print $4}'`
+if [ $1 == $HASH ]; then
+  echo "hashes match" && exit 0;
+  else echo "hashes are different" && exit 1;
+fi
+
