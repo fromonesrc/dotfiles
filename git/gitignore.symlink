@@ -17,7 +17,11 @@ vendor/bundle/
 *.perspective
 *.perspectivev3
 *~.nib
-build/*
 project.xcworkspace
 xcuserdata
 .overcommit.yml
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

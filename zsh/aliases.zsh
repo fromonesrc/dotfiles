@@ -6,9 +6,6 @@ alias rmdir="sudo rm -r"
 alias v=vim
 alias lessn="less -N"
 
-# docker
-alias b2d=boot2docker
-
 # bundler
 alias b=bundle
 alias be="bundle exec"
@@ -23,7 +20,10 @@ alias keff="knife environment from file"
 alias kbu="knife block use"
 alias kcd="knife client delete -y"
 alias knd="knife node delete -y"
+alias krd="knife role delete -y"
+alias ked="knife environment delete -y"
 alias fcr="foodcritic ."
+alias killberks="ps aux | grep bin/berks | head -1 | awk '{print \$2}' | xargs kill -9"
 
 # vagrant
 alias vp="vagrant provision"

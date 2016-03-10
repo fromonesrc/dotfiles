@@ -1,6 +1,6 @@
 execute pathogen#infect()
 syntax on
-color codeschool
+color twilight
 
 let mapleader=","
 map <leader>f :CommandTFlush<cr>\|:CommandT<cr>

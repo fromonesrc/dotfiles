@@ -61,3 +61,5 @@ cdpath=($HOME/src)
 
 export PROJECT_PATH=~/src
 export GOPATH=/Users/fromonesrc/src/gocode
+
+eval "$(thefuck --alias)"
