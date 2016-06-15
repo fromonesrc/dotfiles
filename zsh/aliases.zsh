@@ -31,3 +31,7 @@ alias vu="vagrant up"
 
 # terraform
 alias tf="terraform"
+
+# docker
+
+alias dme='eval "$(docker-machine env default)"'
